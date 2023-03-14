@@ -1,0 +1,5 @@
+#!/bin/bash
+water=$(echo "ibase=water; ${WATER}" | bc)
+stir=$(echo "ibase=stir; ${STIR}" | bc)
+result=$(echo "obase=bestchol; ${water} + ${stir}" | bc)
+echo "The sum of WATER and STIR is: ${result}"

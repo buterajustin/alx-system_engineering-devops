@@ -1,2 +1,2 @@
-!/bin/bash
+#!/bin/bash
 water=$WATER stir=$STIR  result=$((water + stir)) echo "The sum of WATER ($water) and STIR ($stir) is: $result"

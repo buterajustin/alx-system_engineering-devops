@@ -1,2 +1,2 @@
-#!/bin/bash
-water=$(echo "ibase=water; ${WATER}" | bc) stir=$(echo "ibase=stir; ${STIR}" | bc)result=$(echo "obase=bestchol; ${water} + ${stir}" | bc)echo "The sum of WATER and STIR is: ${result}"
+!/bin/bash
+water=$WATER stir=$STIR  result=$((water + stir)) echo "The sum of WATER ($water) and STIR ($stir) is: $result"

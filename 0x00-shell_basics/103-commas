@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 ls -map
+=======
+ls -pamv
+>>>>>>> 85909c970bad3d8a2e3ac9ae6ca0a8ac9599e00e
